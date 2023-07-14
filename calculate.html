@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Solar Calculator Home Page</title>
+        <link rel="stylesheet" type="text/css" href="pvm1.css"/>
+	</head>
+<body>
+<div class="container">
+
+                         <div id="RDF-header">
+                             <!--  <div id="logoBox">
+                                   <a href="">
+                                        <img src="Images/pvImage.jpg" alt="PV logo" width="150"
+                      height="90" border="0" id="logo"/>
+                                   </a>
+                                   
+                             </div>  -->
+                              <div id="RDF-header-title"> Semantic IFC PV Calculator</div>
+						<!-- <p><h4>Sustainable, Affordable, Profitable</h4></p> -->
+    					  </div>
+						  <div id="RDF-title-bar">
+                          <!-- ><img src="Images/pvImage.jpg" alt="left bar top"/>
+						<h3>Sustainable, Affordable, Profitable...</h3> -->
+                         </div>  
+                         
+                         <div id="RDF-separator"></div>
+						 <div id="empty"></div>
+						 <div id="RDF-separator"></div>
+                         <div id="left-bar">
+                              <div id="left-bar-menu">
+								 
+                                   <a href="">Solar Home</a>
+                                   <div class="separator"><hr/></div>
+                                   <a href="http://localhost:8080/shams/manufacturer1.jsp">Wholesale Max Modules</a><br/>
+                                  <a href="http://localhost:8080/shams/manufacturer2.jsp">Solar Shop Nigeria</a><br/>
+                                  <a href="http://localhost:8080/shams/manufacturer3.jsp">Simba Solar Solutions</a><br/>
+                                  
+								   <div class="separator"><hr/></div>
+                                   <a href="http://localhost:8080/shams/calculate.html">Solar Calculators</a>
+								   <div class="separator"><hr/></div>
+								   <a href="">Contact Us</a>
+                              </div>
+                         </div>
+    </div>
+    <div id="RDF-main">
+
+                              <h1>
+								  Get Recommendation Based on Budget
+                              </h1>
+	<form action="estimate.jsp">
+		Budget ($): <input type="text" name="budget" />
+		<br/><br/>
+		Energy Load of Building (kWh): <input type="text" name="energyLoad" />
+		<br/><br/>
+		Solar radiation of location : <input type="text" name="solar" />
+		<br/><br/>
+		<input type="submit" value="RecommendByBudget" />
+	</form>
+	<h1></h1>
+	<h1></h1>
+	<h1></h1>
+	 <h1>
+								 Get Recommendation Based on Output
+                              </h1>
+	<form action="output.jsp"> 
+		
+		Energy Load of Building (kWh): <input type="text" name="energyLoad" />
+		<br/><br/>
+		Solar radiation of location : <input type="text" name="solar" />
+		<br/><br/>
+		<input type="submit" value="RecommendByOutput" />
+	</form>
+	
+	</div>
+
+</body>
+</html>
